@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var vm = ChomagePlanViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            GovernmentPlanView(vm: vm)
+                .tabItem {
+                    Label("Gouvernement", systemImage: "exclamationmark.triangle.fill")
+                }
+            
+            SmarterPlanView(vm: vm)
+                .tabItem {
+                    Label("Solution IA", systemImage: "lightbulb.fill")
+                }
         }
-        .padding()
     }
 }
 

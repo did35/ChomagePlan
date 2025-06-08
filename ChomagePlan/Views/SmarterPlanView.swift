@@ -8,11 +8,32 @@
 import SwiftUI
 
 struct SmarterPlanView: View {
+    let vm: ChomagePlanViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack(spacing: 16) {
+                List(vm.smarterSteps, id: \.self) { step in
+                    Text(step)
+                }
+                .listStyle(.plain)
+                
+                PieChartView(chomeurs: [
+                    ("Diagnostic", 10),
+                    ("Formations", 25),
+                    ("Coaching", 20),
+                    ("Incitations", 30),
+                    ("Maintien droits", 15)
+                ])
+                .frame(height: 300)
+            }
+            .navigationTitle("Solution IA Proposée")
+            .navigationBarTitleDisplayMode(.inline)
+            .padding()
+        }
     }
 }
 
 #Preview {
-    SmarterPlanView()
+    SmarterPlanView(vm: ChomagePlanViewModel())
 }
