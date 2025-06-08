@@ -18,7 +18,7 @@ struct ChomageData {
     let smarterSteps: [String] = [
         "✅ Diagnostic individualisé (ancienneté, âge, santé, motivation)",
         "✅ Formations courtes et sur-mesure dans les secteurs en tension (60.000 places disponibles, coût moyen: 3.000 € / personne)",
-        "✅ Coaching personnalisé et accompagnement intensif (20.000 coachs mobilisés, 1 coach pour 15 demandeurs)",
+        "✅ Coaching personnalisé et accompagnement intensif (10.280 coachs mobilisés, 1 coach pour 15 demandeurs)",
         "✅ Incitations à l'embauche (exonérations fiscales sur 2 ans, prime de 5.000 € / embauche)",
         "✅ Maintien des allocations mais conditionnées à l'insertion (revenu minimum garanti: 1.200 €/mois durant la formation)"
     ]
