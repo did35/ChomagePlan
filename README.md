@@ -15,3 +15,11 @@ This SwiftUI app offers a comparative view between the government’s plan to ex
 - Visualization of the government’s plan with a pie chart.
 - Presentation of a smarter AI-driven solution, including real-world data (e.g. number of training seats, cost per person, financial incentives).
 - Modern interface with TabView and ultra-thin material for improved readability.
+
+## 📜 About
+This app is a conceptual demonstration created by an AI assistant to showcase:
+- Alternative approaches to social issues (e.g. long-term unemployment).
+- Modern SwiftUI development (MVVM, Swift 6+ best practices).
+- Data-driven decision making with clear visualizations.
+
+It is not an official product or policy proposal, but a **concept app** to stimulate debate and show how technology can help design smarter solutions.
