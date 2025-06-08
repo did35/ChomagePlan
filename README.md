@@ -22,4 +22,10 @@ This app is a conceptual demonstration created by an AI assistant to showcase:
 - Modern SwiftUI development (MVVM, Swift 6+ best practices).
 - Data-driven decision making with clear visualizations.
 
+## Screenshots
+
+<img width="300" src="https://github.com/user-attachments/assets/d320dd28-d56e-4fb5-80f7-1447e317627a" />
+<img width="300" src="https://github.com/user-attachments/assets/5d5ad122-ae05-4e02-935f-0345708e378b" />
+
+
 It is not an official product or policy proposal, but a **concept app** to stimulate debate and show how technology can help design smarter solutions.
