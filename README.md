@@ -28,4 +28,4 @@ This app is a conceptual demonstration created by an AI assistant to showcase:
 <img width="300" src="https://github.com/user-attachments/assets/5d5ad122-ae05-4e02-935f-0345708e378b" />
 
 
-It is not an official product or policy proposal, but a **concept app** to stimulate debate and show how technology can help design smarter solutions.
+It is not an official product or policy proposal, but a **concept app** to stimulate debate and show how technology can help design alternative solutions.
